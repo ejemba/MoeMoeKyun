@@ -1,182 +1,87 @@
 <!DOCTYPE html>
-<html lang="fr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
-    <head>
-	<meta charset="utf-8">
+<html lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <title>Pélican sur orbite</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+        <link href="http://hs-157.moe/rss/all.xml" type="application/rss+xml" rel="alternate" title="HS-157.moe moe kyun ! RSS Feed" />
 
-<meta name="description" content="Ça y est, Pélican est sur orbite ! Ou plutôt envoyé sur l'internet. Nous y voilà, ici, je vais parler de choses qui m'intérresse et vous le faire partager. Mais je vais surtout m'en servir comme calepin. Comment est quoi, comment le bouzin? Ce site est généré est ...">
-<meta name="keywords" content="Libre,Archlinux,Gnu/Linux,Pélican">
-<meta name="author" content="HS-157">
-<meta name="robots" content="index,follow">
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
 
+<body id="index" class="home">
+<a href="http://github.com/hs-157/">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="../">HS-157.moe moe kyun !  <strong>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</strong></a></h1>
+                <nav><ul>
+                    <li><a href="../propos">À propos</a></li>
+                    <li><a href="../liste">La "quoi faire" liste</a></li>
+                    <li><a href="../Anime">Anime / Manga</a></li>
+                    <li><a href="../c/test">Test</a></li>
+                    <li class="active"><a href="../c/informatique">Informatique</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../pelican-sur-orbite" rel="bookmark"
+           title="Permalink to Pélican sur orbite">Pélican sur orbite</a></h1>
+    </header>
 
-<!-- OpenGraph -->
-<meta property="og:property" content="fr">
-<meta property="og:title" content="Pélican sur orbite">
-<meta property="og:type" content="article">
-<meta property="og:description" content="Ça y est, Pélican est sur orbite ! Ou plutôt envoyé sur l'internet. Nous y voilà, ici, je vais parler de choses qui m'intérresse et vous le faire partager. Mais je vais surtout m'en servir comme calepin. Comment est quoi, comment le bouzin? Ce site est généré est ...">
-<meta property="article:published_time" content="2015-08-17">
-<meta property="article:tag" content="Libre">
-<meta property="article:tag" content="Archlinux">
-<meta property="article:tag" content="Gnu/Linux">
-<meta property="article:tag" content="Pélican">
-<meta property="article:section" content="Informatique">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pélican sur orbite</title>
-	<script type="text/javascript" src="../Nuja/js/jquery-1.9.1.js"></script>
-	<script type="text/javascript" src="../Nuja/js/bootstrap.js"></script>
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-08-17T02:23:00+02:00">
+                Published: 17/08/15
+        </abbr>
 
-	<!-- Bootstrap CSS  -->
-	<link rel="stylesheet" href="../Nuja/css/bootstrap.css"/>
-	<link rel="stylesheet" href="../Nuja/css/responsive.css"/>
-	
-	<!-- Generated favicons markup -->
-	<link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/assets/images/favicons/manifest.json">
-	<link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
-	<meta name="msapplication-TileColor" content="#2b5797">
-	<meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-144x144.png">
-	<meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
-	<!-- LESS generated css for Nuja theme -->
-	<link rel="stylesheet" href="../Nuja/css/NujaStructure.css"/>
-	<!-- Highlight -->
-	<link rel="stylesheet" href="../Nuja/css/pygment.css"/>
-
-	<link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-	<!--[if IE]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-
-
-
-	<!-- setup feeds and third-party services -->
-	<link href="http://hs-157.moe/rss/all.xml" type="application/rss+xml" rel="alternate" title="HS-157.moe moe kyun ! RSS Feed" />
-    </head>
-    <body>
-
-	<div class="container">
-	    <div class="header-container">
-		<header>
-		    <a href="../">
-			<h4>HS-157.moe moe kyun ! <span>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</span></h4>		    </a>
-
-		    <nav>
-			<ul>
-			    <li><a href="../">Accueil</a></li>
-			    <li><a href="../propos">À propos</a></li>
-			    <li><a href="../liste">La "quoi faire" liste</a></li>
-			    <li><a href="../Anime">Anime / Manga</a></li>
-
-
-			</ul>
-		    </nav>
-		</header>
-
-
-	    </div>
-	    <div class="clearfix"></div>
-	    <div class="row">
-		<div class="span9">
-
-		    <div class="span10">
-
-
-<div class="row">
-    <div class="span9 alpha">
-	<div class="entry-container ">
-
-	    <article  class="entry hentry" >
-		<header>
-		    <a href="/pelican-sur-orbite" rel="bookmark" title="permalink for Pélican sur orbite" ><h2 class="entry-title">Pélican sur orbite</h2></a>
-		    <div class="author-details vcard">
-
-			Par <a  class="url fn" href="/">HS-157</a> dans <a href="/c/informatique">Informatique</a> <br>Tag : 			<a href="../t/libre" title="Browse tag: Libre" rel="tag">Libre</a>, 			<a href="../t/archlinux" title="Browse tag: Archlinux" rel="tag">Archlinux</a>, 			<a href="../t/gnulinux" title="Browse tag: Gnu/Linux" rel="tag">Gnu/Linux</a>, 			<a href="../t/pelican" title="Browse tag: Pélican" rel="tag">Pélican</a>		    </div>
-		</header>
-		<div class="entry-content">
-		<p>Ça y est, Pélican est sur orbite ! Ou plutôt envoyé sur l'internet.</p>
+        <address class="vcard author">
+                By                         <a class="url fn" href="../">HS-157</a>
+        </address>
+<p>In <a href="../c/informatique">Informatique</a>.</p>
+<p>tags: <a href="../t/libre">Libre</a> <a href="../t/archlinux">Archlinux</a> <a href="../t/gnulinux">Gnu/Linux</a> <a href="../t/pelican">Pélican</a> </p>
+</footer><!-- /.post-info -->      <p>Ça y est, Pélican est sur orbite ! Ou plutôt envoyé sur l'internet.</p>
 <p>Nous y voilà, ici, je vais parler de choses qui m'intérresse et vous le faire partager.<br />
 Mais je vais surtout m'en servir comme calepin.</p>
 <p>Comment est quoi, comment le bouzin?<br />
-Ce site est généré est le générateur de site statique <a href="http://blog.getpelican.com/">Pelican</a>, avec le serveur web <a href="http://nginx.org/">Nginx</a>, le tout sur un <a href="http://archlinuxarm.org/">Archlinux Arm</a> tournant sur une <a href="http://www.banana-pi.com">Banana Pi</a>, et auto-hébergé chez moi.</p> </div>
-	    </article>
+Ce site est généré est le générateur de site statique <a href="http://blog.getpelican.com/">Pelican</a>, avec le serveur web <a href="http://nginx.org/">Nginx</a>, le tout sur un <a href="http://archlinuxarm.org/">Archlinux Arm</a> tournant sur une <a href="http://www.banana-pi.com">Banana Pi</a>, et auto-hébergé chez moi.</p>
+    </div><!-- /.entry-content -->
 
-	    <!--
-	    in case any image breaks the theme
-	    i was going to use :after but it didn't quite work for me, maybe next time-->
-	    <div class="clearfix"></div>
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://www.benvii.com/">Benvii</a></li>
+                            <li><a href="http://www.guiguishow.info/">Guigui Show</a></li>
+                            <li><a href="http://h2l29200.tk/">H2L29</a></li>
+                            <li><a href="http://mdl29.net/">Maison du Libre</a></li>
+                            <li><a href="http://blog.getpelican.com/">Pelican</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://hs-157.moe/rss/all.xml" type="application/rss+xml" rel="alternate">rss feed</a></li>
 
+                            <li><a href="http://twitter.com/HS_157">Twitter</a></li>
+                            <li><a href="http://github.com/HS-157">Github</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
 
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
 
-	</div>
-    </div>
-</div>
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
 
-
-	    
-		    </div>
-		</div>
-<!-- Sidebar -->
-<aside class="span3  hidden-phone hidden-tablet">
-
-    <div class="widget-external-links widget">
-	<h3 class="widget-header">Liens externes</h3>
-	<div class="widget-content">
-	    <ul class="widget-list">
-		<li class="widget-list-item"><a href="http://www.benvii.com/">Benvii</a></li>		<li class="widget-list-item"><a href="http://www.guiguishow.info/">Guigui Show</a></li>		<li class="widget-list-item"><a href="http://h2l29200.tk/">H2L29</a></li>		<li class="widget-list-item"><a href="http://mdl29.net/">Maison du Libre</a></li>		<li class="widget-list-item"><a href="http://blog.getpelican.com/">Pelican</a></li> 	    </ul>
-	</div>
-    </div>
-    <div class="widget-external-links widget">
-        <h3 class="widget-header">Articles récents</h3>
-	<div class="widget-content">
-	    <ul class="widget-list">
-		<li class="widget-list-item"><a href="../faisons-de-linternet-transmission-nous" title="Read: Faisons de l'internet, Transmission-nous">Faisons de l'internet, Transmission-nous</a></li>
-		<li class="widget-list-item"><a href="../ranger-et-merde-on-se-les-gele-ici-tiens-voila-quelquun" title="Read: "Ranger : Et merde, on se les gèle ici... Tiens, voilà quelqu'un."">"Ranger : Et merde, on se les gèle ici... Tiens, voilà quelqu'un."</a></li>
-		<li class="widget-list-item"><a href="../urxvt-ou-comment-avoir-du-unicode-dans-rxvt" title="Read: Urxvt, ou comment avoir du Unicode dans Rxvt">Urxvt, ou comment avoir du Unicode dans Rxvt</a></li>
-		<li class="widget-list-item"><a href="../tout-youtube-en-html5-sous-gnulinux-avec-firefox" title="Read: Tout Youtube en HTML5 sous GNU/Linux avec Firefox et les site de Pr0n ! ! !">Tout Youtube en HTML5 sous GNU/Linux avec Firefox et les site de Pr0n ! ! !</a></li>
-		<li class="widget-list-item"><a href="../pelican-sur-orbite" title="Read: Pélican sur orbite">Pélican sur orbite</a></li>
-	    </ul>
-	</div>
-    </div>
-    <div class="widget-archive-category widget">
-	<h3 class="widget-header">Catégories</h3>
-	<div class="widget-content">
-	    <ul class="widget-list">
-		<li class="widget-list-item"><a href="../c/informatique">Informatique.<span>5</span></a></li>
-
-	    </ul>
-	</div>
-    </div>
-</div>
-		</aside>
-	    </div>
-	    <!--footer-->
-	    <div class="row">
-		<div class="span12">
-		    <footer>
-			<p>Le bouzin est mis en orbite  par <a href="http://getpelican.com">Pelican</a>.</p>
-			<p><a href="https://github.com/thndgonz/Nuja">Nuja thème</a> fait par  <a rel="bookmark" href="http://dgzen.pw">DGZen</a> et francisé par moi.</p>
-		    </footer>
-		</div>
-	    </div>
-	</div>
-
-
-    </body>
+</body>
 </html>

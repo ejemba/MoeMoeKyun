@@ -1,5 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HS-157.moe moe kyun !</title><link>http://hs-157.moe/</link><description>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</description><atom:link href="http://hs-157.moe/rss/all.xml" rel="self"></atom:link><lastBuildDate>Sun, 04 Oct 2015 03:05:00 +0200</lastBuildDate><item><title>Faisons de l'internet, Transmission-nous</title><link>http://hs-157.moe/faisons-de-linternet-transmission-nous</link><description>&lt;p&gt;Faisons de l'internet et non du Minitel 2.0, car aujourd'hui c'est &lt;a href="http://www.transmissionbt.com/"&gt;Transmission&lt;/a&gt;, c'est un nœud BitTorrent Libre ! (Def de &lt;a href="https://fr.wikipedia.org/wiki/Transmission_%28logiciel%29"&gt;Wikipédia&lt;/a&gt;) Oui le Libre c'est bien ! ! !&lt;br /&gt;
+<rss version="2.0"><channel><title>HS-157.moe moe kyun !</title><link>http://hs-157.moe/</link><description>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</description><lastBuildDate>Sun, 19 Jun 2016 00:00:00 +0200</lastBuildDate><item><title>Test des rendus en Markdown</title><link>http://hs-157.moe/test-des-rendus-en-markdown</link><description>&lt;h1&gt;Titre de niveau 1&lt;/h1&gt;
+&lt;h2&gt;Titre de niveau 2&lt;/h2&gt;
+&lt;h3&gt;Titre de niveau 3&lt;/h3&gt;
+&lt;h4&gt;Titre de niveau 4&lt;/h4&gt;
+&lt;h5&gt;Titre de niveau 5&lt;/h5&gt;
+&lt;h6&gt;Titre de niveau 6&lt;/h6&gt;
+&lt;p&gt;Mettre un mot en &lt;em&gt;italiques&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Mettre un mot en &lt;strong&gt;gras&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mettre un mot avec les &lt;strong&gt;&lt;em&gt;deux&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pour faire une liste :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un&lt;/li&gt;
+&lt;li&gt;Deux&lt;ul&gt;
+&lt;li&gt;Deux Un&lt;/li&gt;
+&lt;li&gt;Deux Deux&lt;ul&gt;
+&lt;li&gt;Deux Trois Un&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Deux Quatre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sept&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;je mets un texte pour coupé&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Un&lt;/li&gt;
+&lt;li&gt;Deux&lt;ol&gt;
+&lt;li&gt;Deux Un&lt;/li&gt;
+&lt;li&gt;Deux Deux&lt;ul&gt;
+&lt;li&gt;Deux Trois Un&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Deux Quatre&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Sept&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="#"&gt;Lien vers autre part&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Une image
+&lt;img alt="Chat" src="http://placekitten.com/120/108" title="Chat" /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Une belle image de chat&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Du code dans le texte :&lt;/p&gt;
+&lt;p&gt;Vous devez faire un &lt;code&gt;cd&lt;/code&gt; pour changer : ex &lt;code&gt;cd dtc_bien_profond&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;JavaScript syntax highlighting&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nx"&gt;alert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Python syntax highlighting&amp;quot;&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd dtc
+echo huhu
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;No language indicated, so no syntax highlighting. 
+But let&amp;#39;s throw in a &lt;span class="nt"&gt;&amp;lt;b&amp;gt;&lt;/span&gt;tag&lt;span class="nt"&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Un tableau :&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tableau&lt;/th&gt;
+&lt;th align="center"&gt;Non&lt;/th&gt;
+&lt;th align="right"&gt;Cool&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Col 2&lt;/td&gt;
+&lt;td align="center"&gt;Centré&lt;/td&gt;
+&lt;td align="right"&gt;300€&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Col 3&lt;/td&gt;
+&lt;td align="center"&gt;Droite&lt;/td&gt;
+&lt;td align="right"&gt;10€&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zebre&lt;/td&gt;
+&lt;td align="center"&gt;Rayure&lt;/td&gt;
+&lt;td align="right"&gt;1€&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;On va passer à la citation :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Une citation
+Autre ligne&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Citation dans Citation&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Citation dans et rededans
+Test
+Encore
+Fin&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Des checkbox :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Première tache à réaliser.&lt;/li&gt;
+&lt;li&gt;[ ] Une autre chose à faire.
+La case suivante sera une case à cocher HTML cochée.&lt;/li&gt;
+&lt;li&gt;[x] Ça ... c'est fait!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ligne de coupe&lt;/p&gt;
+&lt;hr /&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sun, 19 Jun 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-06-19:test-des-rendus-en-markdown</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Pélican</category><category>Test</category><category>Markdown</category><category>Cheatsheet</category></item><item><title>Test avec un titre super long pour voir ce que ça fait avec plein de choses dedans ! 100</title><link>http://hs-157.moe/test-avec-un-titre-super-long-pour-voir-ce-que-ca-fait-avec-plein-de-choses-dedans-100</link><description>&lt;h1&gt;Titre 1&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="TEST1" src="{attach}/img/test1" title="Titre de test1" /&gt;
+Ça y est, Pélican est sur orbite ! Ou plutôt envoyé sur l'internet.&lt;/p&gt;
+&lt;p&gt;Nous y voilà, ici, je vais parler de choses qui m'intérresse et vous le faire partager.&lt;br /&gt;
+&lt;img alt="TEST1" src="http://placekitten.com/1200/1080" title="Titre de test1" /&gt;
+Mais je vais surtout m'en servir comme calepin.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="TEST1" src="http://placekitten.com/12000/1080" title="Titre de test1" /&gt;
+&lt;img alt="TEST1" src="http://placekitten.com/120/1000" title="Titre de test1" /&gt;&lt;/p&gt;
+&lt;h2&gt;TITRE 2&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="huhu" src="img/test" title="Titre de sdffdsfsdfsd" /&gt;&lt;/p&gt;
+&lt;h3&gt;TITRE 3&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="TEST1" src="img/test3" title="Titre de test1" /&gt;
+Comment est quoi, comment le bouzin?&lt;br /&gt;
+Ce site est généré est le générateur de site statique &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;, avec le serveur web &lt;a href="http://nginx.org/"&gt;Nginx&lt;/a&gt;, le tout sur un &lt;a href="http://archlinuxarm.org/"&gt;Archlinux Arm&lt;/a&gt; tournant sur une &lt;a href="http://www.banana-pi.com"&gt;Banana Pi&lt;/a&gt;, et auto-hébergé chez moi.&lt;/p&gt;
+&lt;h4&gt;TITRE 4&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="jeteste" src="http://placekitten.com/g/1920/1080" title="Titre de test1" /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Un petit chat&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;TITRE 5&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="TEST1" src="img/test4&amp;quot;Titre" title="de test1&amp;quot;" /&gt;&lt;/p&gt;
+&lt;h6&gt;TITRE 6&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="TEST1" src="http://placekitten.com/200/300" title="Titre de test1" /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h1&gt;Test de tritre avec un chat mignon&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;h6&gt;# TITRE 7&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="TEST1" src="http://placekitten.com/600/300" title="Titre de test1" /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Il est tout mignon&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 30 May 2016 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-05-30:test-avec-un-titre-super-long-pour-voir-ce-que-ca-fait-avec-plein-de-choses-dedans-100</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Pélican</category><category>test</category><category>huhu</category><category>tag</category><category>plein</category><category>partout</category><category>tests</category><category>machin</category><category>image</category></item><item><title>Générer une pair de clefs ssh</title><link>http://hs-157.moe/generer-une-pair-de-clefs-ssh</link><description>&lt;p&gt;Générer une pair de clefs ssh c'est simple, avec la commande suivante :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ssh-keygen -t rsa -b 8192 -C &amp;quot;$(whoami)@$(hostname)-$(date -I)&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Que fait cette commande ? Regardons un peu les options :  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;-t&lt;/em&gt; permet de choisir le type de chiffrement, ici du rsa&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;-b&lt;/em&gt; c'est la taille de cette clef, ici 8 192 bits mais on peut monter jusqu'à 16 384 bits avec du rsa&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;-C&lt;/em&gt; permet de rajouter des commentaires, ici avec qui on est, la machine où on est et la date du jour sous la forme AAAA-MM-JJ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Après pour exporter facilement la clef publique sur le serveur que vous voulez, vous pouvez utiliser cette commande :&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ssh-copy-id -i ~/.ssh/id_rsa.pub -p port utilisateur@serveur
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Aussi, si vous voulez pas vous faire chier à taper une commande à ralonge de ce style &lt;code&gt;ssh -p port -i ~/.ssh/id_rsa utilisateur@serveur&lt;/code&gt; à chaque fois, vous pouvez créer un fichier de config dans &lt;code&gt;~/.ssh/config&lt;/code&gt; et mettre ceci.
+```
+Host nom_machin
+    HostName serveur
+    User utilisateur
+    Port port
+    IdentityFile ~/.ssh/id_rsa&lt;/p&gt;
+&lt;p&gt;Les références que j'ai utilisé sont le wiki de Archlinux &lt;a href="https://wiki.archlinux.fr/Ssh#Cl.C3.A9_publique.2Fpriv.C3.A9e"&gt;fr&lt;/a&gt; et &lt;a href="https://wiki.archlinux.org/index.php/SSH_keys#Generating_an_SSH_key_pair"&gt;en&lt;/a&gt; ainsi que le &lt;a href="http://doc.fedora-fr.org/wiki/SSH_:_Authentification_par_cl%C3%A9#Configuration_par_utilisateur"&gt;wiki francophone&lt;/a&gt; de Fédora.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sun, 29 May 2016 02:31:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-05-29:generer-une-pair-de-clefs-ssh</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Ssh</category></item><item><title>Faisons de l'internet, Transmission-nous</title><link>http://hs-157.moe/faisons-de-linternet-transmission-nous</link><description>&lt;p&gt;Faisons de l'internet et non du Minitel 2.0, car aujourd'hui c'est &lt;a href="http://www.transmissionbt.com/"&gt;Transmission&lt;/a&gt;, c'est un nœud BitTorrent Libre ! (Def de &lt;a href="https://fr.wikipedia.org/wiki/Transmission_%28logiciel%29"&gt;Wikipédia&lt;/a&gt;) Oui le Libre c'est bien ! ! !&lt;br /&gt;
 Donc ça permet de faire du torrent en Libre ! Et partager tout bien de fichier Libre de droit !&lt;/p&gt;
 &lt;p&gt;Donc pour l'installer, c'est comme d'habitude, vous sortez votre gestionnaire de paquet préféré, ouais, mais c'est pas en installant le premier Transmission qui passe que ça va marcher.&lt;br /&gt;
 Il existe plusieurs versions de Transmission, le démon, le contrôle à distance en ncurses, la version GTK et QT, qui eux marche en autonome, mais qui ont normalement le contrôle à distance pour le démon.&lt;br /&gt;
@@ -12,10 +181,10 @@ Voilà, il est tout beau, tout mignon, il tourne.&lt;/p&gt;
 &lt;p&gt;La liste des paramètres est disponible sur le &lt;a href="https://trac.transmissionbt.com/wiki/EditConfigFiles#Options"&gt;wiki&lt;/a&gt; de Transmission, vous faites votre configuration personnel.&lt;/p&gt;
 &lt;p&gt;Par defaut, Transmission-deamon a une interface web, et le contrôle à distance ce fait par là, donc si vous voulez pas avoir l'interface web qui traine sur internet ou votre réseau local, mettez en liste blanche votre localhost, soit 127.0.0.1 (Essayez pas de la hacker !).&lt;br /&gt;
 Après, il suffit de lancer transmission-remote-cli sur la même machine que le démon pour avoir le contrôle.&lt;/p&gt;
-&lt;p&gt;Pour d'autre info, l'internet, sinon les wiki &lt;a href="https://wiki.archlinux.fr/Transmission"&gt;fr&lt;/a&gt; et &lt;a href="https://wiki.archlinux.org/index.php/Transmission"&gt;en&lt;/a&gt; de Archlinux sont assez complète avec celui de &lt;a href="https://trac.transmissionbt.com/"&gt;Transmission&lt;/a&gt; et pour le remote-cli, je ferais peut-être un autre article s'il y a des trucs sympa à faire avec.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sun, 04 Oct 2015 03:05:00 +0200</pubDate><guid>tag:hs-157.moe,2015-10-04:faisons-de-linternet-transmission-nous</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Transmission</category></item><item><title>"Ranger : Et merde, on se les gèle ici... Tiens, voilà quelqu'un."</title><link>http://hs-157.moe/ranger-et-merde-on-se-les-gele-ici-tiens-voila-quelquun</link><description>&lt;p&gt;Ranger c'est quoi ? C'est pas ranger sa chambre (il faudrait que je le fasse...). &lt;a href="http://nongnu.org/ranger/"&gt;Ranger&lt;/a&gt;, c'est un gestionnaire de fichier dans le terminal, donc pas besoin d'interface graphique !&lt;/p&gt;
+&lt;p&gt;Pour d'autre info, l'internet, sinon les wiki &lt;a href="https://wiki.archlinux.fr/Transmission"&gt;fr&lt;/a&gt; et &lt;a href="https://wiki.archlinux.org/index.php/Transmission"&gt;en&lt;/a&gt; de Archlinux sont assez complète avec celui de &lt;a href="https://trac.transmissionbt.com/"&gt;Transmission&lt;/a&gt; et pour le remote-cli, je ferais peut-être un autre article s'il y a des trucs sympa à faire avec.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sun, 04 Oct 2015 03:05:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2015-10-04:faisons-de-linternet-transmission-nous</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Transmission</category></item><item><title>"Ranger : Et merde, on se les gèle ici... Tiens, voilà quelqu'un."</title><link>http://hs-157.moe/ranger-et-merde-on-se-les-gele-ici-tiens-voila-quelquun</link><description>&lt;p&gt;Ranger c'est quoi ? C'est pas ranger sa chambre (il faudrait que je le fasse...). &lt;a href="http://nongnu.org/ranger/"&gt;Ranger&lt;/a&gt;, c'est un gestionnaire de fichier dans le terminal, donc pas besoin d'interface graphique !&lt;/p&gt;
 &lt;p&gt;Pour l'installer, utiliser votre gestionnaire de paquets préféré, et voilà, vous avez votre ranger !&lt;br /&gt;
 Pour avoir le fichier de configuration de base lancer la commande :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;ranger --copy-config=all
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ranger --copy-config=all
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -28,57 +197,57 @@ Pour avoir le fichier de configuration de base lancer la commande :&lt;/p&gt;
 &lt;p&gt;Sinon, tout les options sont dans le &lt;a href="http://ranger.nongnu.org/ranger.1.html"&gt;man&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Pour avoir le pré-affichage des archives, pages html, images, pdf, torrent...&lt;br /&gt;
 Il faut installer les dépendances optionelles, la liste est sur la &lt;a href="http://ranger.nongnu.org/"&gt;page&lt;/a&gt; d'accueil du projet, ou pour Archlinux sur la page du &lt;a href="https://www.archlinux.org/packages/community/any/ranger/"&gt;paquet&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Pour plus d'info, les pages du wiki d'Archlinux &lt;a href="https://wiki.archlinux.fr/Ranger"&gt;fr&lt;/a&gt; ou &lt;a href="https://wiki.archlinux.org/index.php/Ranger"&gt;en&lt;/a&gt; ou sinon &lt;a href="http://la-vache-libre.org/ranger-un-gestionnaire-de-fichier-simple-mais-efficace-pour-votre-terminal-2/"&gt;la vache Libre&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sat, 26 Sep 2015 20:24:00 +0200</pubDate><guid>tag:hs-157.moe,2015-09-26:ranger-et-merde-on-se-les-gele-ici-tiens-voila-quelquun</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category></item><item><title>Urxvt, ou comment avoir du Unicode dans Rxvt</title><link>http://hs-157.moe/urxvt-ou-comment-avoir-du-unicode-dans-rxvt</link><description>&lt;p&gt;Urxvt c'est Rxvt-unicode (Ouais c'est cool !), mais plus précisément c'est un clone de rxvt, avec le support d'Unicode en plus. 
+&lt;p&gt;Pour plus d'info, les pages du wiki d'Archlinux &lt;a href="https://wiki.archlinux.fr/Ranger"&gt;fr&lt;/a&gt; ou &lt;a href="https://wiki.archlinux.org/index.php/Ranger"&gt;en&lt;/a&gt; ou sinon &lt;a href="http://la-vache-libre.org/ranger-un-gestionnaire-de-fichier-simple-mais-efficace-pour-votre-terminal-2/"&gt;la vache Libre&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sat, 26 Sep 2015 20:24:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2015-09-26:ranger-et-merde-on-se-les-gele-ici-tiens-voila-quelquun</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category></item><item><title>Urxvt, ou comment avoir du Unicode dans Rxvt</title><link>http://hs-157.moe/urxvt-ou-comment-avoir-du-unicode-dans-rxvt</link><description>&lt;p&gt;Urxvt c'est Rxvt-unicode (Ouais c'est cool !), mais plus précisément c'est un clone de rxvt, avec le support d'Unicode en plus. 
 Urxvt est un émulateur de terminal pour X, donc il ne dépend d'aucun d'environnement graphique, en plus il est léger, facilement configurable et la possibilité de le lancer comme démon.&lt;/p&gt;
 &lt;p&gt;Alors pourquoi l'avoir choisi Urxvt? Car quand j'ai débarqué sur Archlinux, des collègues m'ont dit de l'utiliser et m'ont donnés une configuration de base. Et là j'ai fini de bien configurer mon terminal.&lt;/p&gt;
 &lt;p&gt;Donc il y a quoi de bien à configurer dans Urxvt? 
 D'abord, Urxvt utilise les ressources X11 pour la configuration qui utilise le fichier &lt;code&gt;$HOME/.Xressources&lt;/code&gt;.&lt;br /&gt;
 La liste de tout les options est diponible dans le man de urxvt ou &lt;a href="http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod"&gt;ici&lt;/a&gt; sur le site officiel de Urxvt.&lt;/p&gt;
 &lt;p&gt;Pour la police :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;URxvt.font: xft:DejaVu Sans Mono:size=10
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;URxvt.font: xft:DejaVu Sans Mono:size=10
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;C'est le nom de la police et ensuite la taille.&lt;/p&gt;
 &lt;p&gt;Pour la police en Gras :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;URxvt.boldFont: xft:DejaVu Sans Mono:bold:size=10
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;URxvt.boldFont: xft:DejaVu Sans Mono:bold:size=10
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Il est possible aussi de définir la police en Italique.&lt;/p&gt;
 &lt;p&gt;Après il faut jouer sur l'espacement entre les lettres pour rendre bien la police.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;URxvt*letterSpace: -1
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;URxvt*letterSpace: -1
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Pour la transparence, il y a deux façon, la vraie et la fausse. Pour la vrai, Urvxt utilise la composition, pour ce faite il faut un gestionnaire de compositing ou un gestionnaire de fenêtre qui gère le composite.&lt;/p&gt;
 &lt;p&gt;Donc pour la vraie :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;URxvt*depth: 32
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;URxvt*depth: 32
 URxvt*background: [60]#161616
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;code&gt;URxvt*depth&lt;/code&gt; permet de dire sur combien de bit on gère la transparence et ce qui est entre crochets pour &lt;code&gt;URxvt*background&lt;/code&gt; correspond à la transparence en pourcentage.&lt;/p&gt;
 &lt;p&gt;Pour la fausse transparence, Urxvt prend le fond d'écran et l'applique comme fond.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;URxvt*.transparent: true
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;URxvt*.transparent: true
 URxvt*.shading: 110
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Pour &lt;code&gt;URxvt*.shading&lt;/code&gt;, le chiffre entre 0 et 99 rend un fond pour foncé et entre 101 et 200, un fond plus clair. Mais cela ne rend pas la même couleur défini par &lt;code&gt;URxvt*background&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Pour utiliser Urxvt comme démon, il faut lancer la commande :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;urxvtd -q -o -f
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;urxvtd -q -o -f
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Et après lancer les terminaux avec :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;urxvtc
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;urxvtc
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Pour plus d'information, il y a le wiki &lt;a href="https://wiki.archlinux.fr/Urxvt"&gt;fr&lt;/a&gt; ou &lt;a href="https://wiki.archlinux.org/index.php/Rxvt-unicode"&gt;en&lt;/a&gt; d'Archlinux qui sont de bonne références.&lt;/p&gt;
 &lt;p&gt;Sinon, voici mon fichier de configuration pour Urxvt.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;Xcursor.theme: Vanilla-DMZ
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Xcursor.theme: Vanilla-DMZ
 ! ===============================================
 ! URXVT
 ! ===============================================
@@ -212,7 +381,7 @@ URxvt*matcher.button: 1
 ! URxvt*tabbar-bg: colour
 ! URxvt*tabbar-fg: colour
 URxvt*url-launcher: /usr/bin/xdg-open
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 14 Sep 2015 06:46:00 +0200</pubDate><guid>tag:hs-157.moe,2015-09-14:urxvt-ou-comment-avoir-du-unicode-dans-rxvt</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category></item><item><title>Tout Youtube en HTML5 sous GNU/Linux avec Firefox et les site de Pr0n ! ! !</title><link>http://hs-157.moe/tout-youtube-en-html5-sous-gnulinux-avec-firefox</link><description>&lt;p&gt;En discutant sur IRC, sur le canal #Archlinx-fr, notre cher &lt;a href="http://popho.be/"&gt;Moviuro&lt;/a&gt; nous envoie ce &lt;a href="https://forums.archlinux.fr/viewtopic.php?f=8&amp;amp;t=17210&amp;amp;sid=571035c34bab73d23dae21d41ed64fef"&gt;sujet&lt;/a&gt; et nous demande si on a le même problème.&lt;br /&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 14 Sep 2015 06:46:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2015-09-14:urxvt-ou-comment-avoir-du-unicode-dans-rxvt</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category></item><item><title>Tout Youtube en HTML5 sous GNU/Linux avec Firefox et les site de Pr0n ! ! !</title><link>http://hs-157.moe/tout-youtube-en-html5-sous-gnulinux-avec-firefox</link><description>&lt;p&gt;En discutant sur IRC, sur le canal #Archlinx-fr, notre cher &lt;a href="http://popho.be/"&gt;Moviuro&lt;/a&gt; nous envoie ce &lt;a href="https://forums.archlinux.fr/viewtopic.php?f=8&amp;amp;t=17210&amp;amp;sid=571035c34bab73d23dae21d41ed64fef"&gt;sujet&lt;/a&gt; et nous demande si on a le même problème.&lt;br /&gt;
 Je lui répond, que bien sûr, j'ai Youtube en 360p, car il doit me manquer des trucs à la con.&lt;/p&gt;
 &lt;p&gt;Et là je me suis dit, tien, il me doit manquer des dépendances optionnelles à Firefox.&lt;/p&gt;
 &lt;p&gt;Donc pour commencer, pour savoir ce qui vous manque comme fonctionnalités dans votre Firefox pour lire vos vidéos en 1080p sur Youtube, alle sur ce &lt;a href="https://www.youtube.com/html5"&gt;lien&lt;/a&gt;.&lt;/p&gt;
@@ -226,8 +395,8 @@ Après, il reste plus à activer "MSE &amp;amp; H.264", pour cela, il faut mettr
 &lt;p&gt;Note : D'après des discutions sur IRC, l'activation de ces clefs serai des "trucs" expérimentals et peuvent provoquer l'élévation anormal du processeur.&lt;br /&gt;
 Et merci à Nheir, Spider-cochon, Moviuro et d'autre que j'oublie pour leur aide.&lt;/p&gt;
 &lt;p&gt;Re-Note : Pas obliger d'avoir les dépendances optionnelles pour activer "H.264", car en modifiant les clefs &lt;code&gt;media.mediasource.webm.enabled&lt;/code&gt; et &lt;code&gt;media.fragmented-mp4.ffmpeg.enabled&lt;/code&gt;, cette fonctionnalité s'active.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Re-Re-Note : Quand on a fait tout ça, il est possible de regarder des vidéos de Pr0n sans flash sur certain site \o/&lt;/strong&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Tue, 18 Aug 2015 00:45:00 +0200</pubDate><guid>tag:hs-157.moe,2015-08-18:tout-youtube-en-html5-sous-gnulinux-avec-firefox</guid><category>Youtube</category><category>Archlinux</category><category>Libre</category><category>Firefox</category><category>HTML5</category><category>GNU/Linux</category></item><item><title>Pélican sur orbite</title><link>http://hs-157.moe/pelican-sur-orbite</link><description>&lt;p&gt;Ça y est, Pélican est sur orbite ! Ou plutôt envoyé sur l'internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Re-Re-Note : Quand on a fait tout ça, il est possible de regarder des vidéos de Pr0n sans flash sur certain site \o/&lt;/strong&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Tue, 18 Aug 2015 00:45:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2015-08-18:tout-youtube-en-html5-sous-gnulinux-avec-firefox</guid><category>Youtube</category><category>Archlinux</category><category>Libre</category><category>Firefox</category><category>HTML5</category><category>GNU/Linux</category></item><item><title>Pélican sur orbite</title><link>http://hs-157.moe/pelican-sur-orbite</link><description>&lt;p&gt;Ça y est, Pélican est sur orbite ! Ou plutôt envoyé sur l'internet.&lt;/p&gt;
 &lt;p&gt;Nous y voilà, ici, je vais parler de choses qui m'intérresse et vous le faire partager.&lt;br /&gt;
 Mais je vais surtout m'en servir comme calepin.&lt;/p&gt;
 &lt;p&gt;Comment est quoi, comment le bouzin?&lt;br /&gt;
-Ce site est généré est le générateur de site statique &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;, avec le serveur web &lt;a href="http://nginx.org/"&gt;Nginx&lt;/a&gt;, le tout sur un &lt;a href="http://archlinuxarm.org/"&gt;Archlinux Arm&lt;/a&gt; tournant sur une &lt;a href="http://www.banana-pi.com"&gt;Banana Pi&lt;/a&gt;, et auto-hébergé chez moi.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 17 Aug 2015 02:23:00 +0200</pubDate><guid>tag:hs-157.moe,2015-08-17:pelican-sur-orbite</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Pélican</category></item></channel></rss>
+Ce site est généré est le générateur de site statique &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;, avec le serveur web &lt;a href="http://nginx.org/"&gt;Nginx&lt;/a&gt;, le tout sur un &lt;a href="http://archlinuxarm.org/"&gt;Archlinux Arm&lt;/a&gt; tournant sur une &lt;a href="http://www.banana-pi.com"&gt;Banana Pi&lt;/a&gt;, et auto-hébergé chez moi.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 17 Aug 2015 02:23:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2015-08-17:pelican-sur-orbite</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Pélican</category></item></channel></rss>

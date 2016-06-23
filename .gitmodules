@@ -1,0 +1,3 @@
+[submodule "Mannitan"]
+	path = Mannitan
+	url = https://github.com/HS-157/Mannitan.git

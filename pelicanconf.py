@@ -38,8 +38,9 @@ GZIP_CACHE = True
 
 DEFAULT_LANG = "fr"
 REVERSE_CATEGORY_ORDER = True
-LOCALE = "C"
-DEFAULT_PAGINATION = 5
+LOCALE = "fr_FR.utf8"
+DEFAULT_PAGINATION = 100
+DEFAULT_ORPHANS = 10
 DEFAULT_DATE = 'fs'
 DATE_FORMATS = {'fr': '%d/%m/%y',}
 
@@ -68,5 +69,5 @@ EXTRA_PATH_METADATA = {
 		    'extra/favicon.ico': {'path': 'favicon.con'},
 			    }
 
-THEME_STATIC_DIR = 'Nuja'
-THEME = 'Nuja'
+#THEME_STATIC_DIR = 'Mannitan'
+#THEME = 'Mannitan'

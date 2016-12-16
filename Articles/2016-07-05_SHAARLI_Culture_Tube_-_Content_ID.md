@@ -1,6 +1,6 @@
-Title: Culture Tube - Content ID
+Title: [Shaarli] Culture Tube - Content ID
 Date: 2016-07-05 20:30
-Category: Shaarli
+Category: Informatique
 Tags: Shaarli, Youtube, Droit d'auteur
 
 #[Culture Tube - Content ID](https://www.youtube.com/watch?v=fOUxZqsvb64)
@@ -9,4 +9,4 @@ Vidéo expliquant le *Content ID* sur Youtube, un peu longue, mais se découpe e
 
 Culture Tube fait référence à une [vidéo](https://www.youtube.com/watch?v=JWQLhBVuuB4) de FERMEZ-LA sur le copyright, surtout expliquant comme une vidéo se fait "*striker*" et avec "L'école du copyright". Je pense que c'est mieux de regarder cette vidéo avant pour comprendre un peu mieux le *Content ID*.
 
-C'est pas seulement un problème sur Youtube l'exeption de droit d'auteur, mais tout les média, et surtout des internets,
+C'est pas seulement un problème sur Youtube l'exeption de droit d'auteur, mais tout les média, et surtout des internets.

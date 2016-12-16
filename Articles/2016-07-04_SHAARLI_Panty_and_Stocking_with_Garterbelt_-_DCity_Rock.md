@@ -1,6 +1,6 @@
-Title: Panty and Stocking with Garterbelt - DCity Rock
+Title: [Shaarli] Panty and Stocking with Garterbelt - DCity Rock
 Date: 2016-07-04 05:28
-Category: Shaarli
+Category: Culture japonaise
 Tags: Shaarli, Youtube, Anime
 
 #[Panty and Stocking with Garterbelt - DCity Rock](https://www.youtube.com/watch?v=K8HNLR4LO3w)

@@ -1,6 +1,6 @@
-Title: Blog et Libre
+Title: [Shaarli] Blog et Libre
 Date: 2016-07-05 16:37
-Category: Shaarli
+Category: Informatique
 Tags: Shaarli, Blog, Libre
 
 #[Blog et Libre](https://www.blog-libre.org/2016/07/05/blog-et-libre/)

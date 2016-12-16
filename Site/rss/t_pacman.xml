@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>HS-157.moe moe kyun !</title><link>http://hs-157.moe/</link><description>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</description><lastBuildDate>Mon, 14 Nov 2016 05:39:00 +0100</lastBuildDate><item><title>[Shaarli] Pacman - Empêcher l'installation de locales</title><link>http://hs-157.moe/shaarli-pacman-empecher-linstallation-de-locales</link><description>&lt;h1&gt;&lt;a href="https://wiki.archlinux.fr/Pacman#Emp.C3.AAcher_l.27installation_de_locales"&gt;Pacman - Empêcher l'installation de locales&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Ce que je trouve bien sur le canal #archlinux-fr, c'est quand un sujet est intérressant, tout le monde s'y met et voilà le résultat. Comment gagner un peu de place quand son système est installer sur la fameuse carte SD de 2Go !&lt;/p&gt;
+&lt;p&gt;Grâce à l'option &lt;code&gt;NoExtract&lt;/code&gt; de Pacman, on peut lui dire de ne pas extraire certains fichiers des paquets et comme des trucs pas forcément utilent, c'est le cas les locales qu'on n'utilise pas et qui prend quand même un peu de place. Exemple du avant / après sur mes systèmes :&lt;/p&gt;
+&lt;p&gt;Sur ma Banana :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avant :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@moeKyun  ~  
+╰─$ du -hs /usr/share/locale/
+93M     /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Après :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@moeKyun  ~  
+╰─$ du -hs /usr/share/locale/                                                                           
+4,9M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Sur mon ordinateur portable :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avant :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@V17  ~  
+╰─$ du -hs /usr/share/locale/
+291M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Après :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@V17  ~  
+╰─$ du -hs /usr/share/locale/
+8,8M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Donc ce qui en ressort de tout ça, c'est de trouver les bons arguments pour &lt;code&gt;NoExtract&lt;/code&gt; et la commande pour virer les locales non-utilisé.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 14 Nov 2016 05:39:00 +0100</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-11-14:shaarli-pacman-empecher-linstallation-de-locales</guid><category>Shaarli</category><category>Gnu/Linux</category><category>Archlinux</category><category>Pacman</category><category>Libre</category></item></channel></rss>

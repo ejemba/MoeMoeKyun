@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>HS-157.moe moe kyun !</title><link>http://hs-157.moe/</link><description>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</description><lastBuildDate>Fri, 16 Dec 2016 03:52:00 +0100</lastBuildDate><item><title>[Shaarli] Kaorin ou comment découvrir de la bonne musique</title><link>http://hs-157.moe/shaarli-kaorin-ou-comment-decouvrir-de-la-bonne-musique</link><description>&lt;h1&gt;&lt;a href="http://www.radiokawa.com/musique/kaorin/?no_redirect"&gt;Kaorin ou comment découvrir de la bonne musique&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Ayant enfin fini d'écouter toutes les émissions de &lt;em&gt;Kaorin&lt;/em&gt;, je peux vous la conseiller, car c'est une bonne émission diffusant de la musique de la culture visuelle japonaise.&lt;/p&gt;
+&lt;p&gt;Très bien animé par &lt;a href="https://twitter.com/PiscesAmo"&gt;Amo&lt;/a&gt; qui nous fait découvrir de belle musique ainsi que de nous donner l'envie de regarder les animés, d'où sont tirées les musiques.&lt;/p&gt;
+&lt;p&gt;Encore une fois, je vous recommande de suivre ce podcast !&lt;/p&gt;
+&lt;p&gt;Pour la suite, je vais écouter une des nombreux podcast fait par &lt;a href="http://www.radiokawa.com/"&gt;RadioKawa&lt;/a&gt; !&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Fri, 16 Dec 2016 03:52:00 +0100</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-12-16:shaarli-kaorin-ou-comment-decouvrir-de-la-bonne-musique</guid><category>Shaarli</category><category>Musique</category><category>Anime</category><category>Podcast</category></item><item><title>[Shaarli] Pacman - Empêcher l'installation de locales</title><link>http://hs-157.moe/shaarli-pacman-empecher-linstallation-de-locales</link><description>&lt;h1&gt;&lt;a href="https://wiki.archlinux.fr/Pacman#Emp.C3.AAcher_l.27installation_de_locales"&gt;Pacman - Empêcher l'installation de locales&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Ce que je trouve bien sur le canal #archlinux-fr, c'est quand un sujet est intérressant, tout le monde s'y met et voilà le résultat. Comment gagner un peu de place quand son système est installer sur la fameuse carte SD de 2Go !&lt;/p&gt;
+&lt;p&gt;Grâce à l'option &lt;code&gt;NoExtract&lt;/code&gt; de Pacman, on peut lui dire de ne pas extraire certains fichiers des paquets et comme des trucs pas forcément utilent, c'est le cas les locales qu'on n'utilise pas et qui prend quand même un peu de place. Exemple du avant / après sur mes systèmes :&lt;/p&gt;
+&lt;p&gt;Sur ma Banana :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avant :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@moeKyun  ~  
+╰─$ du -hs /usr/share/locale/
+93M     /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Après :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@moeKyun  ~  
+╰─$ du -hs /usr/share/locale/                                                                           
+4,9M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Sur mon ordinateur portable :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avant :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@V17  ~  
+╰─$ du -hs /usr/share/locale/
+291M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Après :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@V17  ~  
+╰─$ du -hs /usr/share/locale/
+8,8M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Donc ce qui en ressort de tout ça, c'est de trouver les bons arguments pour &lt;code&gt;NoExtract&lt;/code&gt; et la commande pour virer les locales non-utilisé.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 14 Nov 2016 05:39:00 +0100</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-11-14:shaarli-pacman-empecher-linstallation-de-locales</guid><category>Shaarli</category><category>Gnu/Linux</category><category>Archlinux</category><category>Pacman</category><category>Libre</category></item><item><title>[Shaarli] CVE-2016-5195 DirtyCow</title><link>http://hs-157.moe/shaarli-cve-2016-5195-dirtycow</link><description>&lt;h1&gt;&lt;a href="https://youtu.be/kEsshExn7aE"&gt;CVE-2016-5195 DirtyCow&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Je viens de voir passer sur DLFP d'un journal parlant de la faille &lt;a href="http://linuxfr.org/users/philippelhardy/journaux/cve-2016-5195-dirtycow"&gt;CVE-2016-5195 DirtyCow&lt;/a&gt;, mais celui-ci étant court, je voulais savoir plus, mais heureusement que du monde dans les commentaires qui peuvent complèter l'information.&lt;/p&gt;
+&lt;p&gt;Ce &lt;a href="http://linuxfr.org/users/philippelhardy/journaux/cve-2016-5195-dirtycow#comment-1678970"&gt;commentaire&lt;/a&gt; partageant ce lien ce Youtube pour expliquer en détail (en anglais) comment ça se passe.&lt;/p&gt;
+&lt;p&gt;Juste un peu plus bas dans les commentaires, ce &lt;a href="http://linuxfr.org/users/philippelhardy/journaux/cve-2016-5195-dirtycow#comment-1678965"&gt;fil de commentaires&lt;/a&gt; dit en gros que la faille permet de remplacer des bits dans un fichier, donc cela permet de réécrire le &lt;code&gt;/etc/shadow&lt;/code&gt; par exemple mais permet pas d'en écrire des nouveaux bits.&lt;/p&gt;
+&lt;p&gt;Dans les détails de la vidéo (de ce que j'ai compris) c'est qu'il y a deux thread qui s'executent, ça regarde d'un coté &lt;code&gt;/proc/self/mem&lt;/code&gt; par rapport à la mémoire et de l'autre coté, on fait une copie privée du fichier où veut écrire dans une bloucle. Normalement, ce qui se passe c'est qui fait la copie, il essaie d'écrire dedans, ça dit que ça peut pas et c'est jeter, mais étant dans une boucle, un moment, l'écriture qui normalement se fait sur la copie privée est enfaite écrit sur l'orginal.&lt;/p&gt;
+&lt;p&gt;La particularité de cette faille est qu'elle est depuis un moment dans le noyau Linux, depuis environ 9 ans.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sun, 23 Oct 2016 03:15:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-10-23:shaarli-cve-2016-5195-dirtycow</guid><category>Shaarli</category><category>Gnu/Linux</category><category>Archlinux</category><category>Youtube</category></item><item><title>[Shaarli] Sortie de poezio 0.10</title><link>http://hs-157.moe/shaarli-sortie-de-poezio-010</link><description>&lt;h1&gt;&lt;a href="http://linuxfr.org/news/sortie-de-poezio-0-10"&gt;Sortie de poezio 0.10&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Cool, une nouvelle version de Poezio qui vient de sortir, et ça c'est bien !&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Tue, 11 Oct 2016 23:19:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-10-11:shaarli-sortie-de-poezio-010</guid><category>Shaarli</category><category>XMPP</category><category>Libre</category></item><item><title>[Shaarli] Se connecter à IRC</title><link>http://hs-157.moe/shaarli-se-connecter-a-irc</link><description>&lt;h1&gt;&lt;a href="http://dukeart.netlib.re/dokuwiki/doku.php/irc:first_steps"&gt;Se connecter à IRC&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Façon sympa de se connecter à IRC pour tester.&lt;br /&gt;
+J'ai test avec la commande ncat, on peut se co aussi avec du telnet&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Tue, 27 Sep 2016 23:45:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-09-27:shaarli-se-connecter-a-irc</guid><category>Shaarli</category><category>Gnu/Linux</category><category>IRC</category></item><item><title>[Shaarli] Culture Tube - Content ID</title><link>http://hs-157.moe/shaarli-culture-tube-content-id</link><description>&lt;h1&gt;&lt;a href="https://www.youtube.com/watch?v=fOUxZqsvb64"&gt;Culture Tube - Content ID&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Vidéo expliquant le &lt;em&gt;Content ID&lt;/em&gt; sur Youtube, un peu longue, mais se découpe en deux parties. En premier, une introduction sur le &lt;em&gt;Content ID&lt;/em&gt; et l'exeption du droit d'auteur en France. Ensuite, une interview avec &lt;a href="https://scinfolex.com/droits-dauteur-en-bibliotheque/"&gt;Calimaq&lt;/a&gt;, sur son site il fait aussi un &lt;a href="https://scinfolex.com/2016/07/05/ce-que-le-filtrage-automatise-des-contenus-sur-youtube-fait-a-la-creation/"&gt;billet&lt;/a&gt; par rapport à ça.&lt;/p&gt;
+&lt;p&gt;Culture Tube fait référence à une &lt;a href="https://www.youtube.com/watch?v=JWQLhBVuuB4"&gt;vidéo&lt;/a&gt; de FERMEZ-LA sur le copyright, surtout expliquant comme une vidéo se fait "&lt;em&gt;striker&lt;/em&gt;" et avec "L'école du copyright". Je pense que c'est mieux de regarder cette vidéo avant pour comprendre un peu mieux le &lt;em&gt;Content ID&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;C'est pas seulement un problème sur Youtube l'exeption de droit d'auteur, mais tout les média, et surtout des internets.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Tue, 05 Jul 2016 20:30:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-07-05:shaarli-culture-tube-content-id</guid><category>Shaarli</category><category>Youtube</category><category>Droit d'auteur</category></item><item><title>[Shaarli] Blog et Libre</title><link>http://hs-157.moe/shaarli-blog-et-libre</link><description>&lt;h1&gt;&lt;a href="https://www.blog-libre.org/2016/07/05/blog-et-libre/"&gt;Blog et Libre&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;C'est vrai, c'est blog c'est fait pour parler de ce qu'on aime, pas obliger de se contenir à un thème précis. C'est pour ça qu'ici je parle de ce que j'aime.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Tue, 05 Jul 2016 16:37:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-07-05:shaarli-blog-et-libre</guid><category>Shaarli</category><category>Blog</category><category>Libre</category></item><item><title>[Shaarli] Panty and Stocking with Garterbelt - DCity Rock</title><link>http://hs-157.moe/shaarli-panty-and-stocking-with-garterbelt-dcity-rock</link><description>&lt;h1&gt;&lt;a href="https://www.youtube.com/watch?v=K8HNLR4LO3w"&gt;Panty and Stocking with Garterbelt - DCity Rock&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Je viens de finir de regarder &lt;a href="https://fr.wikipedia.org/wiki/Panty_and_Stocking_with_Garterbelt"&gt;Panty and Stocking with Garterbelt&lt;/a&gt;, superbe série, bien marrante avec un chara-disign très cartoon. Mais ce que je partage est une bande-son d'une musique dans un des épisodes.&lt;/p&gt;
+&lt;p&gt;Le lien en haut revoie vers l'extrait de l'épisode ou pour l'OST, &lt;a href="https://www.youtube.com/watch?v=kTvewPtk7sg"&gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;P.S.: La &lt;a href="http://www.karaokes.moe/?video=PantyandStockingwithGarterbelt-InsertSong-DCityRock.webm"&gt;musique&lt;/a&gt; est aussi regardable sur le site &lt;a href="http://www.karaokes.moe/"&gt;karaokes.moe&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 04 Jul 2016 05:28:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-07-04:shaarli-panty-and-stocking-with-garterbelt-dcity-rock</guid><category>Shaarli</category><category>Youtube</category><category>Anime</category></item><item><title>[Shaarli] Shaarli sans Shaarli</title><link>http://hs-157.moe/shaarli-shaarli-sans-shaarli</link><description>&lt;p&gt;Qu'est-ce &lt;a href="https://www.shaarli.fr/my.php"&gt;Shaarli&lt;/a&gt;, ça permet de partager facilement des liens et écrit à l'origine par &lt;a href="http://sebsauvage.net/"&gt;Sebsauvage&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;J'aime bien ce principe de partager des liens et mettre son commentaire dessus mais le problème c'est que c'est écrit en PHP et que ce n'est pas statique, donc j'ai décidé de &lt;em&gt;hacker&lt;/em&gt; Pélican et Shaarli pour m'en faire un.&lt;/p&gt;
+&lt;p&gt;Enfaite c'est très simple, ça sera juste des articles où un tag sera &lt;em&gt;Shaarli&lt;/em&gt;, il y aussi le lien vers la page en début de l'article.&lt;/p&gt;
+&lt;p&gt;Comme ça, je peux partager facilement les liens que je veux.&lt;/p&gt;
+&lt;p&gt;Sinon, quelques Shaarli que je suis :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.guiguishow.info/"&gt;Guigui's Show&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sebsauvage.net/links/"&gt;Sebsauvage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 04 Jul 2016 05:13:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-07-04:shaarli-shaarli-sans-shaarli</guid><category>Shaarli</category><category>Libre</category><category>Pélican</category></item></channel></rss>

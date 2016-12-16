@@ -1,28 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>HS-157.moe moe kyun !</title><link>http://hs-157.moe/</link><description>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</description><lastBuildDate>Sun, 29 May 2016 02:31:00 +0200</lastBuildDate><item><title>Générer une pair de clefs ssh</title><link>http://hs-157.moe/generer-une-pair-de-clefs-ssh</link><description>&lt;p&gt;Générer une pair de clefs ssh c'est simple, avec la commande suivante :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ssh-keygen -t rsa -b 8192 -C &amp;quot;$(whoami)@$(hostname)-$(date -I)&amp;quot;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Que fait cette commande ? Regardons un peu les options :  &lt;/p&gt;
+<rss version="2.0"><channel><title>HS-157.moe moe kyun !</title><link>http://hs-157.moe/</link><description>Je suis un chanceux parmi les uns, et un malheureux parmi les autres...</description><lastBuildDate>Mon, 14 Nov 2016 05:39:00 +0100</lastBuildDate><item><title>[Shaarli] Pacman - Empêcher l'installation de locales</title><link>http://hs-157.moe/shaarli-pacman-empecher-linstallation-de-locales</link><description>&lt;h1&gt;&lt;a href="https://wiki.archlinux.fr/Pacman#Emp.C3.AAcher_l.27installation_de_locales"&gt;Pacman - Empêcher l'installation de locales&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Ce que je trouve bien sur le canal #archlinux-fr, c'est quand un sujet est intérressant, tout le monde s'y met et voilà le résultat. Comment gagner un peu de place quand son système est installer sur la fameuse carte SD de 2Go !&lt;/p&gt;
+&lt;p&gt;Grâce à l'option &lt;code&gt;NoExtract&lt;/code&gt; de Pacman, on peut lui dire de ne pas extraire certains fichiers des paquets et comme des trucs pas forcément utilent, c'est le cas les locales qu'on n'utilise pas et qui prend quand même un peu de place. Exemple du avant / après sur mes systèmes :&lt;/p&gt;
+&lt;p&gt;Sur ma Banana :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;-t&lt;/em&gt; permet de choisir le type de chiffrement, ici du rsa&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;-b&lt;/em&gt; c'est la taille de cette clef, ici 8 192 bits mais on peut monter jusqu'à 16 384 bits avec du rsa&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;-C&lt;/em&gt; permet de rajouter des commentaires, ici avec qui on est, la machine où on est et la date du jour sous la forme AAAA-MM-JJ&lt;/li&gt;
+&lt;li&gt;Avant :&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Après pour exporter facilement la clef publique sur le serveur que vous voulez, vous pouvez utiliser cette commande :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ssh-copy-id -i ~/.ssh/id_rsa.pub -p port utilisateur@serveur
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@moeKyun  ~  
+╰─$ du -hs /usr/share/locale/
+93M     /usr/share/locale/
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Aussi, si vous voulez pas vous faire chier à taper une commande à ralonge de ce style &lt;code&gt;ssh -p port -i ~/.ssh/id_rsa utilisateur@serveur&lt;/code&gt; à chaque fois, vous pouvez créer un fichier de config dans &lt;code&gt;~/.ssh/config&lt;/code&gt; et mettre ceci.
-```
-Host nom_machin
-    HostName serveur
-    User utilisateur
-    Port port
-    IdentityFile ~/.ssh/id_rsa&lt;/p&gt;
-&lt;p&gt;Les références que j'ai utilisé sont le wiki de Archlinux &lt;a href="https://wiki.archlinux.fr/Ssh#Cl.C3.A9_publique.2Fpriv.C3.A9e"&gt;fr&lt;/a&gt; et &lt;a href="https://wiki.archlinux.org/index.php/SSH_keys#Generating_an_SSH_key_pair"&gt;en&lt;/a&gt; ainsi que le &lt;a href="http://doc.fedora-fr.org/wiki/SSH_:_Authentification_par_cl%C3%A9#Configuration_par_utilisateur"&gt;wiki francophone&lt;/a&gt; de Fédora.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sun, 29 May 2016 02:31:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-05-29:generer-une-pair-de-clefs-ssh</guid><category>Libre</category><category>Archlinux</category><category>Gnu/Linux</category><category>Ssh</category></item><item><title>Faisons de l'internet, Transmission-nous</title><link>http://hs-157.moe/faisons-de-linternet-transmission-nous</link><description>&lt;p&gt;Faisons de l'internet et non du Minitel 2.0, car aujourd'hui c'est &lt;a href="http://www.transmissionbt.com/"&gt;Transmission&lt;/a&gt;, c'est un nœud BitTorrent Libre ! (Def de &lt;a href="https://fr.wikipedia.org/wiki/Transmission_%28logiciel%29"&gt;Wikipédia&lt;/a&gt;) Oui le Libre c'est bien ! ! !&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Après :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@moeKyun  ~  
+╰─$ du -hs /usr/share/locale/                                                                           
+4,9M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Sur mon ordinateur portable :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avant :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@V17  ~  
+╰─$ du -hs /usr/share/locale/
+291M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Après :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;╭─hs-157@V17  ~  
+╰─$ du -hs /usr/share/locale/
+8,8M    /usr/share/locale/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Donc ce qui en ressort de tout ça, c'est de trouver les bons arguments pour &lt;code&gt;NoExtract&lt;/code&gt; et la commande pour virer les locales non-utilisé.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Mon, 14 Nov 2016 05:39:00 +0100</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-11-14:shaarli-pacman-empecher-linstallation-de-locales</guid><category>Shaarli</category><category>Gnu/Linux</category><category>Archlinux</category><category>Pacman</category><category>Libre</category></item><item><title>[Shaarli] CVE-2016-5195 DirtyCow</title><link>http://hs-157.moe/shaarli-cve-2016-5195-dirtycow</link><description>&lt;h1&gt;&lt;a href="https://youtu.be/kEsshExn7aE"&gt;CVE-2016-5195 DirtyCow&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Je viens de voir passer sur DLFP d'un journal parlant de la faille &lt;a href="http://linuxfr.org/users/philippelhardy/journaux/cve-2016-5195-dirtycow"&gt;CVE-2016-5195 DirtyCow&lt;/a&gt;, mais celui-ci étant court, je voulais savoir plus, mais heureusement que du monde dans les commentaires qui peuvent complèter l'information.&lt;/p&gt;
+&lt;p&gt;Ce &lt;a href="http://linuxfr.org/users/philippelhardy/journaux/cve-2016-5195-dirtycow#comment-1678970"&gt;commentaire&lt;/a&gt; partageant ce lien ce Youtube pour expliquer en détail (en anglais) comment ça se passe.&lt;/p&gt;
+&lt;p&gt;Juste un peu plus bas dans les commentaires, ce &lt;a href="http://linuxfr.org/users/philippelhardy/journaux/cve-2016-5195-dirtycow#comment-1678965"&gt;fil de commentaires&lt;/a&gt; dit en gros que la faille permet de remplacer des bits dans un fichier, donc cela permet de réécrire le &lt;code&gt;/etc/shadow&lt;/code&gt; par exemple mais permet pas d'en écrire des nouveaux bits.&lt;/p&gt;
+&lt;p&gt;Dans les détails de la vidéo (de ce que j'ai compris) c'est qu'il y a deux thread qui s'executent, ça regarde d'un coté &lt;code&gt;/proc/self/mem&lt;/code&gt; par rapport à la mémoire et de l'autre coté, on fait une copie privée du fichier où veut écrire dans une bloucle. Normalement, ce qui se passe c'est qui fait la copie, il essaie d'écrire dedans, ça dit que ça peut pas et c'est jeter, mais étant dans une boucle, un moment, l'écriture qui normalement se fait sur la copie privée est enfaite écrit sur l'orginal.&lt;/p&gt;
+&lt;p&gt;La particularité de cette faille est qu'elle est depuis un moment dans le noyau Linux, depuis environ 9 ans.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Sun, 23 Oct 2016 03:15:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-10-23:shaarli-cve-2016-5195-dirtycow</guid><category>Shaarli</category><category>Gnu/Linux</category><category>Archlinux</category><category>Youtube</category></item><item><title>[Shaarli] Se connecter à IRC</title><link>http://hs-157.moe/shaarli-se-connecter-a-irc</link><description>&lt;h1&gt;&lt;a href="http://dukeart.netlib.re/dokuwiki/doku.php/irc:first_steps"&gt;Se connecter à IRC&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Façon sympa de se connecter à IRC pour tester.&lt;br /&gt;
+J'ai test avec la commande ncat, on peut se co aussi avec du telnet&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">HS-157</dc:creator><pubDate>Tue, 27 Sep 2016 23:45:00 +0200</pubDate><guid isPermaLink="false">tag:hs-157.moe,2016-09-27:shaarli-se-connecter-a-irc</guid><category>Shaarli</category><category>Gnu/Linux</category><category>IRC</category></item><item><title>Faisons de l'internet, Transmission-nous</title><link>http://hs-157.moe/faisons-de-linternet-transmission-nous</link><description>&lt;p&gt;Faisons de l'internet et non du Minitel 2.0, car aujourd'hui c'est &lt;a href="http://www.transmissionbt.com/"&gt;Transmission&lt;/a&gt;, c'est un nœud BitTorrent Libre ! (Def de &lt;a href="https://fr.wikipedia.org/wiki/Transmission_%28logiciel%29"&gt;Wikipédia&lt;/a&gt;) Oui le Libre c'est bien ! ! !&lt;br /&gt;
 Donc ça permet de faire du torrent en Libre ! Et partager tout bien de fichier Libre de droit !&lt;/p&gt;
 &lt;p&gt;Donc pour l'installer, c'est comme d'habitude, vous sortez votre gestionnaire de paquet préféré, ouais, mais c'est pas en installant le premier Transmission qui passe que ça va marcher.&lt;br /&gt;
 Il existe plusieurs versions de Transmission, le démon, le contrôle à distance en ncurses, la version GTK et QT, qui eux marche en autonome, mais qui ont normalement le contrôle à distance pour le démon.&lt;br /&gt;

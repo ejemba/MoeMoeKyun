@@ -6,4 +6,4 @@ Tags: Shaarli, XMPP, Libre
 
 # [Sortie de poezio 0.10](http://linuxfr.org/news/sortie-de-poezio-0-10)
 
-Cool, une nouvelle version de Poezio qui vient de sortir, et ça c'est bien !
+Cool, une nouvelle version de Poezio qui vient de sortir, et ça c’est bien !

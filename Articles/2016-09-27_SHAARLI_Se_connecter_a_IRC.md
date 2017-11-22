@@ -6,4 +6,4 @@ Tags: Shaarli, Gnu/Linux, IRC
 # [Se connecter à IRC](https://dukeart.netlib.re/dokuwiki/doku.php/internet:irc-start)
 
 Façon sympa de se connecter à IRC pour tester.  
-J'ai test avec la commande ncat, on peut se co aussi avec du telnet
+J’ai testé avec la commande ncat, on peut se co aussi avec du telnet

@@ -100,6 +100,7 @@ C'est surtout le `APPEND` qu'il faut modifier pour bien démarrer sur le systèm
 
 + `root=` C'est pour dire où est la partition /.
 + `cryptdevice=` C'est pour dire quel est la partition chiffré.
++ `:ssd` C'est un nom arbitraire donné à la commande `cryptsetup luksOpen`. 
 + `rw` C'est pour dire qu'on est en lecture / écriture.
 
 Et hop :
